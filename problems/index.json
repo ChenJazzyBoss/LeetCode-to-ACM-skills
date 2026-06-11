@@ -1,103 +1,1252 @@
 [
-  {"id": 1, "title": "两数之和", "slug": "two-sum", "difficulty": "easy", "tags": ["哈希表", "数组"], "inputMode": "basic", "dir": "001-two-sum"},
-  {"id": 2, "title": "两数相加", "slug": "add-two-numbers", "difficulty": "medium", "tags": ["链表", "递归"], "inputMode": "basic", "dir": "002-add-two-numbers"},
-  {"id": 3, "title": "无重复字符的最长子串", "slug": "longest-substring-without-repeating-characters", "difficulty": "medium", "tags": ["滑动窗口", "哈希表", "字符串"], "inputMode": "basic", "dir": "003-longest-substring"},
-  {"id": 4, "title": "寻找两个正序数组的中位数", "slug": "median-of-two-sorted-arrays", "difficulty": "hard", "tags": ["二分查找", "数组"], "inputMode": "basic", "dir": "004-median-of-two-sorted-arrays"},
-  {"id": 5, "title": "最长回文子串", "slug": "longest-palindromic-substring", "difficulty": "medium", "tags": ["动态规划", "字符串"], "inputMode": "basic", "dir": "005-longest-palindromic-substring"},
-  {"id": 10, "title": "正则表达式匹配", "slug": "regular-expression-matching", "difficulty": "hard", "tags": ["动态规划", "字符串"], "inputMode": "basic", "dir": "010-regular-expression-matching"},
-  {"id": 11, "title": "盛最多水的容器", "slug": "container-with-most-water", "difficulty": "medium", "tags": ["双指针", "贪心算法"], "inputMode": "basic", "dir": "011-container-with-most-water"},
-  {"id": 15, "title": "三数之和", "slug": "3sum", "difficulty": "medium", "tags": ["双指针", "数组", "排序"], "inputMode": "basic", "dir": "015-3sum"},
-  {"id": 17, "title": "电话号码的字母组合", "slug": "letter-combinations-of-a-phone-number", "difficulty": "medium", "tags": ["回溯算法", "字符串"], "inputMode": "basic", "dir": "017-letter-combinations"},
-  {"id": 19, "title": "删除链表的倒数第 N 个结点", "slug": "remove-nth-node-from-end-of-list", "difficulty": "medium", "tags": ["链表", "双指针"], "inputMode": "basic", "dir": "019-remove-nth-node"},
-  {"id": 20, "title": "有效的括号", "slug": "valid-parentheses", "difficulty": "easy", "tags": ["栈", "字符串"], "inputMode": "basic", "dir": "020-valid-parentheses"},
-  {"id": 21, "title": "合并两个有序链表", "slug": "merge-two-sorted-lists", "difficulty": "easy", "tags": ["链表", "递归"], "inputMode": "basic", "dir": "021-merge-two-sorted-lists"},
-  {"id": 22, "title": "括号生成", "slug": "generate-parentheses", "difficulty": "medium", "tags": ["回溯算法", "动态规划"], "inputMode": "basic", "dir": "022-generate-parentheses"},
-  {"id": 23, "title": "合并 K 个升序链表", "slug": "merge-k-sorted-lists", "difficulty": "hard", "tags": ["链表", "堆", "分治算法"], "inputMode": "basic", "dir": "023-merge-k-sorted-lists"},
-  {"id": 25, "title": "K 个一组翻转链表", "slug": "reverse-nodes-in-k-group", "difficulty": "hard", "tags": ["链表", "递归"], "inputMode": "basic", "dir": "025-reverse-nodes-in-k-group"},
-  {"id": 31, "title": "下一个排列", "slug": "next-permutation", "difficulty": "medium", "tags": ["数组", "双指针"], "inputMode": "basic", "dir": "031-next-permutation"},
-  {"id": 32, "title": "最长有效括号", "slug": "longest-valid-parentheses", "difficulty": "hard", "tags": ["栈", "动态规划", "字符串"], "inputMode": "basic", "dir": "032-longest-valid-parentheses"},
-  {"id": 33, "title": "搜索旋转排序数组", "slug": "search-in-rotated-sorted-array", "difficulty": "medium", "tags": ["二分查找", "数组"], "inputMode": "basic", "dir": "033-search-rotated-array"},
-  {"id": 34, "title": "在排序数组中查找元素的第一个和最后一个位置", "slug": "find-first-and-last-position-of-element-in-sorted-array", "difficulty": "medium", "tags": ["二分查找", "数组"], "inputMode": "basic", "dir": "034-find-first-and-last"},
-  {"id": 39, "title": "组合总和", "slug": "combination-sum", "difficulty": "medium", "tags": ["回溯算法", "数组"], "inputMode": "basic", "dir": "039-combination-sum"},
-  {"id": 42, "title": "接雨水", "slug": "trapping-rain-water", "difficulty": "hard", "tags": ["双指针", "栈", "动态规划"], "inputMode": "basic", "dir": "042-trapping-rain-water"},
-  {"id": 46, "title": "全排列", "slug": "permutations", "difficulty": "medium", "tags": ["回溯算法", "数组"], "inputMode": "basic", "dir": "046-permutations"},
-  {"id": 48, "title": "旋转图像", "slug": "rotate-image", "difficulty": "medium", "tags": ["数组", "矩阵"], "inputMode": "matrix", "dir": "048-rotate-image"},
-  {"id": 49, "title": "字母异位词分组", "slug": "group-anagrams", "difficulty": "medium", "tags": ["哈希表", "字符串", "排序"], "inputMode": "basic", "dir": "049-group-anagrams"},
-  {"id": 53, "title": "最大子数组和", "slug": "maximum-subarray", "difficulty": "medium", "tags": ["动态规划", "数组"], "inputMode": "basic", "dir": "053-maximum-subarray"},
-  {"id": 55, "title": "跳跃游戏", "slug": "jump-game", "difficulty": "medium", "tags": ["贪心算法", "动态规划", "数组"], "inputMode": "basic", "dir": "055-jump-game"},
-  {"id": 56, "title": "合并区间", "slug": "merge-intervals", "difficulty": "medium", "tags": ["排序", "数组"], "inputMode": "matrix", "dir": "056-merge-intervals"},
-  {"id": 62, "title": "不同路径", "slug": "unique-paths", "difficulty": "medium", "tags": ["动态规划", "组合数学"], "inputMode": "basic", "dir": "062-unique-paths"},
-  {"id": 64, "title": "最小路径和", "slug": "minimum-path-sum", "difficulty": "medium", "tags": ["动态规划", "矩阵"], "inputMode": "matrix", "dir": "064-minimum-path-sum"},
-  {"id": 70, "title": "爬楼梯", "slug": "climbing-stairs", "difficulty": "easy", "tags": ["动态规划"], "inputMode": "basic", "dir": "070-climbing-stairs"},
-  {"id": 72, "title": "编辑距离", "slug": "edit-distance", "difficulty": "medium", "tags": ["动态规划", "字符串"], "inputMode": "basic", "dir": "072-edit-distance"},
-  {"id": 75, "title": "颜色分类", "slug": "sort-colors", "difficulty": "medium", "tags": ["双指针", "排序", "数组"], "inputMode": "basic", "dir": "075-sort-colors"},
-  {"id": 76, "title": "最小覆盖子串", "slug": "minimum-window-substring", "difficulty": "hard", "tags": ["滑动窗口", "哈希表", "字符串"], "inputMode": "basic", "dir": "076-minimum-window-substring"},
-  {"id": 78, "title": "子集", "slug": "subsets", "difficulty": "medium", "tags": ["回溯算法", "位运算", "数组"], "inputMode": "basic", "dir": "078-subsets"},
-  {"id": 79, "title": "单词搜索", "slug": "word-search", "difficulty": "medium", "tags": ["回溯算法", "矩阵"], "inputMode": "matrix", "dir": "079-word-search"},
-  {"id": 84, "title": "柱状图中最大的矩形", "slug": "largest-rectangle-in-histogram", "difficulty": "hard", "tags": ["栈", "数组", "单调栈"], "inputMode": "basic", "dir": "084-largest-rectangle"},
-  {"id": 85, "title": "最大矩形", "slug": "maximal-rectangle", "difficulty": "hard", "tags": ["栈", "动态规划", "矩阵"], "inputMode": "matrix", "dir": "085-maximal-rectangle"},
-  {"id": 94, "title": "二叉树的中序遍历", "slug": "binary-tree-inorder-traversal", "difficulty": "easy", "tags": ["二叉树", "栈", "递归"], "inputMode": "tree", "dir": "094-binary-tree-inorder"},
-  {"id": 98, "title": "验证二叉搜索树", "slug": "validate-binary-search-tree", "difficulty": "medium", "tags": ["二叉树", "DFS", "递归"], "inputMode": "tree", "dir": "098-validate-bst"},
-  {"id": 101, "title": "对称二叉树", "slug": "symmetric-tree", "difficulty": "easy", "tags": ["二叉树", "BFS", "DFS"], "inputMode": "tree", "dir": "101-symmetric-tree"},
-  {"id": 102, "title": "二叉树的层序遍历", "slug": "binary-tree-level-order-traversal", "difficulty": "medium", "tags": ["二叉树", "BFS"], "inputMode": "tree", "dir": "102-binary-tree-level-order"},
-  {"id": 104, "title": "二叉树的最大深度", "slug": "maximum-depth-of-binary-tree", "difficulty": "easy", "tags": ["二叉树", "DFS", "递归"], "inputMode": "tree", "dir": "104-maximum-depth"},
-  {"id": 105, "title": "从前序与中序遍历序列构造二叉树", "slug": "construct-binary-tree-from-preorder-and-inorder-traversal", "difficulty": "medium", "tags": ["二叉树", "数组", "DFS"], "inputMode": "basic", "dir": "105-construct-bt-preorder-inorder"},
-  {"id": 121, "title": "买卖股票的最佳时机", "slug": "best-time-to-buy-and-sell-stock", "difficulty": "easy", "tags": ["动态规划", "数组"], "inputMode": "basic", "dir": "121-best-time-to-buy-sell-stock"},
-  {"id": 124, "title": "二叉树中的最大路径和", "slug": "binary-tree-maximum-path-sum", "difficulty": "hard", "tags": ["二叉树", "DFS", "动态规划"], "inputMode": "tree", "dir": "124-binary-tree-max-path-sum"},
-  {"id": 128, "title": "最长连续序列", "slug": "longest-consecutive-sequence", "difficulty": "medium", "tags": ["哈希表", "数组"], "inputMode": "basic", "dir": "128-longest-consecutive-sequence"},
-  {"id": 136, "title": "只出现一次的数字", "slug": "single-number", "difficulty": "easy", "tags": ["位运算", "数组"], "inputMode": "basic", "dir": "136-single-number"},
-  {"id": 139, "title": "单词拆分", "slug": "word-break", "difficulty": "medium", "tags": ["动态规划", "字符串", "哈希表"], "inputMode": "basic", "dir": "139-word-break"},
-  {"id": 141, "title": "环形链表", "slug": "linked-list-cycle", "difficulty": "easy", "tags": ["链表", "双指针", "哈希表"], "inputMode": "basic", "dir": "141-linked-list-cycle"},
-  {"id": 142, "title": "环形链表 II", "slug": "linked-list-cycle-ii", "difficulty": "medium", "tags": ["链表", "双指针", "哈希表"], "inputMode": "basic", "dir": "142-linked-list-cycle-ii"},
-  {"id": 146, "title": "LRU 缓存", "slug": "lru-cache", "difficulty": "medium", "tags": ["哈希表", "链表", "设计"], "inputMode": "basic", "dir": "146-lru-cache"},
-  {"id": 148, "title": "排序链表", "slug": "sort-list", "difficulty": "medium", "tags": ["链表", "排序", "分治算法"], "inputMode": "basic", "dir": "148-sort-list"},
-  {"id": 152, "title": "乘积最大子数组", "slug": "maximum-product-subarray", "difficulty": "medium", "tags": ["动态规划", "数组"], "inputMode": "basic", "dir": "152-maximum-product-subarray"},
-  {"id": 155, "title": "最小栈", "slug": "min-stack", "difficulty": "medium", "tags": ["栈", "设计"], "inputMode": "basic", "dir": "155-min-stack"},
-  {"id": 160, "title": "相交链表", "slug": "intersection-of-two-linked-lists", "difficulty": "easy", "tags": ["链表", "双指针"], "inputMode": "basic", "dir": "160-intersection-of-two-linked-lists"},
-  {"id": 169, "title": "多数元素", "slug": "majority-element", "difficulty": "easy", "tags": ["数组", "哈希表", "排序"], "inputMode": "basic", "dir": "169-majority-element"},
-  {"id": 198, "title": "打家劫舍", "slug": "house-robber", "difficulty": "medium", "tags": ["动态规划", "数组"], "inputMode": "basic", "dir": "198-house-robber"},
-  {"id": 200, "title": "岛屿数量", "slug": "number-of-islands", "difficulty": "medium", "tags": ["BFS", "DFS", "矩阵"], "inputMode": "matrix", "dir": "200-number-of-islands"},
-  {"id": 206, "title": "反转链表", "slug": "reverse-linked-list", "difficulty": "easy", "tags": ["链表", "递归"], "inputMode": "basic", "dir": "206-reverse-linked-list"},
-  {"id": 207, "title": "课程表", "slug": "course-schedule", "difficulty": "medium", "tags": ["图论", "拓扑排序", "BFS"], "inputMode": "graph", "dir": "207-course-schedule"},
-  {"id": 208, "title": "实现 Trie (前缀树)", "slug": "implement-trie-prefix-tree", "difficulty": "medium", "tags": ["字典树", "字符串", "设计"], "inputMode": "basic", "dir": "208-implement-trie"},
-  {"id": 210, "title": "课程表 II", "slug": "course-schedule-ii", "difficulty": "medium", "tags": ["图论", "拓扑排序", "BFS"], "inputMode": "graph", "dir": "210-course-schedule-ii"},
-  {"id": 211, "title": "添加与搜索单词", "slug": "design-add-and-search-words-data-structure", "difficulty": "medium", "tags": ["字典树", "字符串", "DFS"], "inputMode": "basic", "dir": "211-design-add-search-words"},
-  {"id": 215, "title": "数组中的第 K 个最大元素", "slug": "kth-largest-element-in-an-array", "difficulty": "medium", "tags": ["堆", "排序", "数组"], "inputMode": "basic", "dir": "215-kth-largest-element"},
-  {"id": 226, "title": "翻转二叉树", "slug": "invert-binary-tree", "difficulty": "easy", "tags": ["二叉树", "DFS", "BFS"], "inputMode": "tree", "dir": "226-invert-binary-tree"},
-  {"id": 234, "title": "回文链表", "slug": "palindrome-linked-list", "difficulty": "easy", "tags": ["链表", "双指针"], "inputMode": "basic", "dir": "234-palindrome-linked-list"},
-  {"id": 236, "title": "二叉树的最近公共祖先", "slug": "lowest-common-ancestor-of-a-binary-tree", "difficulty": "medium", "tags": ["二叉树", "DFS"], "inputMode": "tree", "dir": "236-lowest-common-ancestor"},
-  {"id": 238, "title": "除自身以外数组的乘积", "slug": "product-of-array-except-self", "difficulty": "medium", "tags": ["数组", "前缀和"], "inputMode": "basic", "dir": "238-product-of-array-except-self"},
-  {"id": 239, "title": "滑动窗口最大值", "slug": "sliding-window-maximum", "difficulty": "hard", "tags": ["队列", "滑动窗口", "单调队列"], "inputMode": "basic", "dir": "239-sliding-window-maximum"},
-  {"id": 253, "title": "会议室 II", "slug": "meeting-rooms-ii", "difficulty": "medium", "tags": ["排序", "堆", "贪心算法"], "inputMode": "matrix", "dir": "253-meeting-rooms-ii"},
-  {"id": 279, "title": "完全平方数", "slug": "perfect-squares", "difficulty": "medium", "tags": ["动态规划", "BFS"], "inputMode": "basic", "dir": "279-perfect-squares"},
-  {"id": 283, "title": "移动零", "slug": "move-zeroes", "difficulty": "easy", "tags": ["数组", "双指针"], "inputMode": "basic", "dir": "283-move-zeroes"},
-  {"id": 287, "title": "寻找重复数", "slug": "find-the-duplicate-number", "difficulty": "medium", "tags": ["双指针", "数组", "二分查找"], "inputMode": "basic", "dir": "287-find-duplicate-number"},
-  {"id": 295, "title": "数据流的中位数", "slug": "find-median-from-data-stream", "difficulty": "hard", "tags": ["堆", "设计"], "inputMode": "basic", "dir": "295-find-median-from-data-stream"},
-  {"id": 297, "title": "二叉树的序列化与反序列化", "slug": "serialize-and-deserialize-binary-tree", "difficulty": "hard", "tags": ["二叉树", "DFS", "BFS", "字符串"], "inputMode": "tree", "dir": "297-serialize-deserialize-bt"},
-  {"id": 300, "title": "最长递增子序列", "slug": "longest-increasing-subsequence", "difficulty": "medium", "tags": ["动态规划", "二分查找", "数组"], "inputMode": "basic", "dir": "300-longest-increasing-subsequence"},
-  {"id": 301, "title": "删除无效的括号", "slug": "remove-invalid-parentheses", "difficulty": "hard", "tags": ["BFS", "回溯算法", "字符串"], "inputMode": "basic", "dir": "301-remove-invalid-parentheses"},
-  {"id": 309, "title": "最佳买卖股票时机含冷冻期", "slug": "best-time-to-buy-and-sell-stock-with-cooldown", "difficulty": "medium", "tags": ["动态规划", "数组"], "inputMode": "basic", "dir": "309-best-time-to-buy-sell-stock-cooldown"},
-  {"id": 312, "title": "戳气球", "slug": "burst-balloons", "difficulty": "hard", "tags": ["动态规划", "数组"], "inputMode": "basic", "dir": "312-burst-balloons"},
-  {"id": 322, "title": "零钱兑换", "slug": "coin-change", "difficulty": "medium", "tags": ["动态规划", "BFS", "数组"], "inputMode": "basic", "dir": "322-coin-change"},
-  {"id": 337, "title": "打家劫舍 III", "slug": "house-robber-iii", "difficulty": "medium", "tags": ["二叉树", "动态规划", "DFS"], "inputMode": "tree", "dir": "337-house-robber-iii"},
-  {"id": 338, "title": "比特位计数", "slug": "counting-bits", "difficulty": "easy", "tags": ["位运算", "动态规划"], "inputMode": "basic", "dir": "338-counting-bits"},
-  {"id": 347, "title": "前 K 个高频元素", "slug": "top-k-frequent-elements", "difficulty": "medium", "tags": ["堆", "哈希表", "排序"], "inputMode": "basic", "dir": "347-top-k-frequent-elements"},
-  {"id": 374, "title": "猜数字大小", "slug": "guess-number-higher-or-lower", "difficulty": "easy", "tags": ["二分查找"], "inputMode": "basic", "dir": "374-guess-number"},
-  {"id": 394, "title": "字符串解码", "slug": "decode-string", "difficulty": "medium", "tags": ["栈", "字符串", "递归"], "inputMode": "basic", "dir": "394-decode-string"},
-  {"id": 399, "title": "除法求值", "slug": "evaluate-division", "difficulty": "medium", "tags": ["图论", "DFS", "并查集"], "inputMode": "graph", "dir": "399-evaluate-division"},
-  {"id": 406, "title": "根据身高重建队列", "slug": "queue-reconstruction-by-height", "difficulty": "medium", "tags": ["贪心算法", "排序", "数组"], "inputMode": "matrix", "dir": "406-queue-reconstruction"},
-  {"id": 416, "title": "分割等和子集", "slug": "partition-equal-subset-sum", "difficulty": "medium", "tags": ["动态规划", "数组"], "inputMode": "basic", "dir": "416-partition-equal-subset-sum"},
-  {"id": 437, "title": "路径总和 III", "slug": "path-sum-iii", "difficulty": "medium", "tags": ["二叉树", "DFS", "前缀和"], "inputMode": "tree", "dir": "437-path-sum-iii"},
-  {"id": 438, "title": "找到字符串中所有字母异位词", "slug": "find-all-anagrams-in-a-string", "difficulty": "medium", "tags": ["滑动窗口", "哈希表", "字符串"], "inputMode": "basic", "dir": "438-find-all-anagrams"},
-  {"id": 448, "title": "找到所有数组中消失的数字", "slug": "find-all-numbers-disappeared-in-an-array", "difficulty": "easy", "tags": ["数组", "哈希表"], "inputMode": "basic", "dir": "448-find-all-numbers-disappeared"},
-  {"id": 461, "title": "汉明距离", "slug": "hamming-distance", "difficulty": "easy", "tags": ["位运算"], "inputMode": "basic", "dir": "461-hamming-distance"},
-  {"id": 494, "title": "目标和", "slug": "target-sum", "difficulty": "medium", "tags": ["动态规划", "DFS", "数组"], "inputMode": "basic", "dir": "494-target-sum"},
-  {"id": 538, "title": "把二叉搜索树转换为累加树", "slug": "convert-bst-to-greater-tree", "difficulty": "medium", "tags": ["二叉树", "DFS"], "inputMode": "tree", "dir": "538-convert-bst-to-greater"},
-  {"id": 543, "title": "二叉树的直径", "slug": "diameter-of-binary-tree", "difficulty": "easy", "tags": ["二叉树", "DFS"], "inputMode": "tree", "dir": "543-diameter-of-binary-tree"},
-  {"id": 560, "title": "和为 K 的子数组", "slug": "subarray-sum-equals-k", "difficulty": "medium", "tags": ["前缀和", "哈希表", "数组"], "inputMode": "basic", "dir": "560-subarray-sum-equals-k"},
-  {"id": 581, "title": "最短无序连续子数组", "slug": "shortest-unsorted-continuous-subarray", "difficulty": "medium", "tags": ["数组", "排序", "双指针"], "inputMode": "basic", "dir": "581-shortest-unsorted-subarray"},
-  {"id": 617, "title": "合并二叉树", "slug": "merge-two-binary-trees", "difficulty": "easy", "tags": ["二叉树", "DFS", "BFS"], "inputMode": "tree", "dir": "617-merge-two-binary-trees"},
-  {"id": 621, "title": "任务调度器", "slug": "task-scheduler", "difficulty": "medium", "tags": ["贪心算法", "堆", "数组"], "inputMode": "basic", "dir": "621-task-scheduler"},
-  {"id": 647, "title": "回文子串", "slug": "palindromic-substrings", "difficulty": "medium", "tags": ["动态规划", "字符串"], "inputMode": "basic", "dir": "647-palindromic-substrings"},
-  {"id": 739, "title": "每日温度", "slug": "daily-temperatures", "difficulty": "medium", "tags": ["栈", "数组", "单调栈"], "inputMode": "basic", "dir": "739-daily-temperatures"}
+  {
+    "id": 1,
+    "title": "两数之和",
+    "slug": "two-sum",
+    "difficulty": "easy",
+    "tags": [
+      "哈希表",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "001-two-sum"
+  },
+  {
+    "id": 2,
+    "title": "两数相加",
+    "slug": "add-two-numbers",
+    "difficulty": "medium",
+    "tags": [
+      "链表",
+      "递归"
+    ],
+    "inputMode": "basic",
+    "dir": "002-add-two-numbers"
+  },
+  {
+    "id": 3,
+    "title": "无重复字符的最长子串",
+    "slug": "longest-substring-without-repeating-characters",
+    "difficulty": "medium",
+    "tags": [
+      "滑动窗口",
+      "哈希表",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "003-longest-substring"
+  },
+  {
+    "id": 4,
+    "title": "寻找两个正序数组的中位数",
+    "slug": "median-of-two-sorted-arrays",
+    "difficulty": "hard",
+    "tags": [
+      "二分查找",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "004-median-of-two-sorted-arrays"
+  },
+  {
+    "id": 5,
+    "title": "最长回文子串",
+    "slug": "longest-palindromic-substring",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "005-longest-palindromic-substring"
+  },
+  {
+    "id": 10,
+    "title": "正则表达式匹配",
+    "slug": "regular-expression-matching",
+    "difficulty": "hard",
+    "tags": [
+      "动态规划",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "010-regular-expression-matching"
+  },
+  {
+    "id": 11,
+    "title": "盛最多水的容器",
+    "slug": "container-with-most-water",
+    "difficulty": "medium",
+    "tags": [
+      "双指针",
+      "贪心算法"
+    ],
+    "inputMode": "basic",
+    "dir": "011-container-with-most-water"
+  },
+  {
+    "id": 15,
+    "title": "三数之和",
+    "slug": "3sum",
+    "difficulty": "medium",
+    "tags": [
+      "双指针",
+      "数组",
+      "排序"
+    ],
+    "inputMode": "basic",
+    "dir": "015-3sum"
+  },
+  {
+    "id": 17,
+    "title": "电话号码的字母组合",
+    "slug": "letter-combinations-of-a-phone-number",
+    "difficulty": "medium",
+    "tags": [
+      "回溯算法",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "017-letter-combinations"
+  },
+  {
+    "id": 19,
+    "title": "删除链表的倒数第 N 个结点",
+    "slug": "remove-nth-node-from-end-of-list",
+    "difficulty": "medium",
+    "tags": [
+      "链表",
+      "双指针"
+    ],
+    "inputMode": "basic",
+    "dir": "019-remove-nth-node"
+  },
+  {
+    "id": 20,
+    "title": "有效的括号",
+    "slug": "valid-parentheses",
+    "difficulty": "easy",
+    "tags": [
+      "栈",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "020-valid-parentheses"
+  },
+  {
+    "id": 21,
+    "title": "合并两个有序链表",
+    "slug": "merge-two-sorted-lists",
+    "difficulty": "easy",
+    "tags": [
+      "链表",
+      "递归"
+    ],
+    "inputMode": "basic",
+    "dir": "021-merge-two-sorted-lists"
+  },
+  {
+    "id": 22,
+    "title": "括号生成",
+    "slug": "generate-parentheses",
+    "difficulty": "medium",
+    "tags": [
+      "回溯算法",
+      "动态规划"
+    ],
+    "inputMode": "basic",
+    "dir": "022-generate-parentheses"
+  },
+  {
+    "id": 23,
+    "title": "合并 K 个升序链表",
+    "slug": "merge-k-sorted-lists",
+    "difficulty": "hard",
+    "tags": [
+      "链表",
+      "堆",
+      "分治算法"
+    ],
+    "inputMode": "basic",
+    "dir": "023-merge-k-sorted-lists"
+  },
+  {
+    "id": 25,
+    "title": "K 个一组翻转链表",
+    "slug": "reverse-nodes-in-k-group",
+    "difficulty": "hard",
+    "tags": [
+      "链表",
+      "递归"
+    ],
+    "inputMode": "basic",
+    "dir": "025-reverse-nodes-in-k-group"
+  },
+  {
+    "id": 31,
+    "title": "下一个排列",
+    "slug": "next-permutation",
+    "difficulty": "medium",
+    "tags": [
+      "数组",
+      "双指针"
+    ],
+    "inputMode": "basic",
+    "dir": "031-next-permutation"
+  },
+  {
+    "id": 32,
+    "title": "最长有效括号",
+    "slug": "longest-valid-parentheses",
+    "difficulty": "hard",
+    "tags": [
+      "栈",
+      "动态规划",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "032-longest-valid-parentheses"
+  },
+  {
+    "id": 33,
+    "title": "搜索旋转排序数组",
+    "slug": "search-in-rotated-sorted-array",
+    "difficulty": "medium",
+    "tags": [
+      "二分查找",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "033-search-rotated-array"
+  },
+  {
+    "id": 34,
+    "title": "在排序数组中查找元素的第一个和最后一个位置",
+    "slug": "find-first-and-last-position-of-element-in-sorted-array",
+    "difficulty": "medium",
+    "tags": [
+      "二分查找",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "034-find-first-and-last"
+  },
+  {
+    "id": 39,
+    "title": "组合总和",
+    "slug": "combination-sum",
+    "difficulty": "medium",
+    "tags": [
+      "回溯算法",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "039-combination-sum"
+  },
+  {
+    "id": 42,
+    "title": "接雨水",
+    "slug": "trapping-rain-water",
+    "difficulty": "hard",
+    "tags": [
+      "双指针",
+      "栈",
+      "动态规划"
+    ],
+    "inputMode": "basic",
+    "dir": "042-trapping-rain-water"
+  },
+  {
+    "id": 46,
+    "title": "全排列",
+    "slug": "permutations",
+    "difficulty": "medium",
+    "tags": [
+      "回溯算法",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "046-permutations"
+  },
+  {
+    "id": 48,
+    "title": "旋转图像",
+    "slug": "rotate-image",
+    "difficulty": "medium",
+    "tags": [
+      "数组",
+      "矩阵"
+    ],
+    "inputMode": "matrix",
+    "dir": "048-rotate-image"
+  },
+  {
+    "id": 49,
+    "title": "字母异位词分组",
+    "slug": "group-anagrams",
+    "difficulty": "medium",
+    "tags": [
+      "哈希表",
+      "字符串",
+      "排序"
+    ],
+    "inputMode": "basic",
+    "dir": "049-group-anagrams"
+  },
+  {
+    "id": 53,
+    "title": "最大子数组和",
+    "slug": "maximum-subarray",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "053-maximum-subarray"
+  },
+  {
+    "id": 55,
+    "title": "跳跃游戏",
+    "slug": "jump-game",
+    "difficulty": "medium",
+    "tags": [
+      "贪心算法",
+      "动态规划",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "055-jump-game"
+  },
+  {
+    "id": 56,
+    "title": "合并区间",
+    "slug": "merge-intervals",
+    "difficulty": "medium",
+    "tags": [
+      "排序",
+      "数组"
+    ],
+    "inputMode": "matrix",
+    "dir": "056-merge-intervals"
+  },
+  {
+    "id": 62,
+    "title": "不同路径",
+    "slug": "unique-paths",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "组合数学"
+    ],
+    "inputMode": "basic",
+    "dir": "062-unique-paths"
+  },
+  {
+    "id": 64,
+    "title": "最小路径和",
+    "slug": "minimum-path-sum",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "矩阵"
+    ],
+    "inputMode": "matrix",
+    "dir": "064-minimum-path-sum"
+  },
+  {
+    "id": 70,
+    "title": "爬楼梯",
+    "slug": "climbing-stairs",
+    "difficulty": "easy",
+    "tags": [
+      "动态规划"
+    ],
+    "inputMode": "basic",
+    "dir": "070-climbing-stairs"
+  },
+  {
+    "id": 72,
+    "title": "编辑距离",
+    "slug": "edit-distance",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "072-edit-distance"
+  },
+  {
+    "id": 75,
+    "title": "颜色分类",
+    "slug": "sort-colors",
+    "difficulty": "medium",
+    "tags": [
+      "双指针",
+      "排序",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "075-sort-colors"
+  },
+  {
+    "id": 76,
+    "title": "最小覆盖子串",
+    "slug": "minimum-window-substring",
+    "difficulty": "hard",
+    "tags": [
+      "滑动窗口",
+      "哈希表",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "076-minimum-window-substring"
+  },
+  {
+    "id": 78,
+    "title": "子集",
+    "slug": "subsets",
+    "difficulty": "medium",
+    "tags": [
+      "回溯算法",
+      "位运算",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "078-subsets"
+  },
+  {
+    "id": 79,
+    "title": "单词搜索",
+    "slug": "word-search",
+    "difficulty": "medium",
+    "tags": [
+      "回溯算法",
+      "矩阵"
+    ],
+    "inputMode": "matrix",
+    "dir": "079-word-search"
+  },
+  {
+    "id": 84,
+    "title": "柱状图中最大的矩形",
+    "slug": "largest-rectangle-in-histogram",
+    "difficulty": "hard",
+    "tags": [
+      "栈",
+      "数组",
+      "单调栈"
+    ],
+    "inputMode": "basic",
+    "dir": "084-largest-rectangle"
+  },
+  {
+    "id": 85,
+    "title": "最大矩形",
+    "slug": "maximal-rectangle",
+    "difficulty": "hard",
+    "tags": [
+      "栈",
+      "动态规划",
+      "矩阵"
+    ],
+    "inputMode": "matrix",
+    "dir": "085-maximal-rectangle"
+  },
+  {
+    "id": 94,
+    "title": "二叉树的中序遍历",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "easy",
+    "tags": [
+      "二叉树",
+      "栈",
+      "递归"
+    ],
+    "inputMode": "tree",
+    "dir": "094-binary-tree-inorder"
+  },
+  {
+    "id": 98,
+    "title": "验证二叉搜索树",
+    "slug": "validate-binary-search-tree",
+    "difficulty": "medium",
+    "tags": [
+      "二叉树",
+      "DFS",
+      "递归"
+    ],
+    "inputMode": "tree",
+    "dir": "098-validate-bst"
+  },
+  {
+    "id": 101,
+    "title": "对称二叉树",
+    "slug": "symmetric-tree",
+    "difficulty": "easy",
+    "tags": [
+      "二叉树",
+      "BFS",
+      "DFS"
+    ],
+    "inputMode": "tree",
+    "dir": "101-symmetric-tree"
+  },
+  {
+    "id": 102,
+    "title": "二叉树的层序遍历",
+    "slug": "binary-tree-level-order-traversal",
+    "difficulty": "medium",
+    "tags": [
+      "二叉树",
+      "BFS"
+    ],
+    "inputMode": "tree",
+    "dir": "102-binary-tree-level-order"
+  },
+  {
+    "id": 104,
+    "title": "二叉树的最大深度",
+    "slug": "maximum-depth-of-binary-tree",
+    "difficulty": "easy",
+    "tags": [
+      "二叉树",
+      "DFS",
+      "递归"
+    ],
+    "inputMode": "tree",
+    "dir": "104-maximum-depth"
+  },
+  {
+    "id": 105,
+    "title": "从前序与中序遍历序列构造二叉树",
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "difficulty": "medium",
+    "tags": [
+      "二叉树",
+      "数组",
+      "DFS"
+    ],
+    "inputMode": "basic",
+    "dir": "105-construct-bt-preorder-inorder"
+  },
+  {
+    "id": 121,
+    "title": "买卖股票的最佳时机",
+    "slug": "best-time-to-buy-and-sell-stock",
+    "difficulty": "easy",
+    "tags": [
+      "动态规划",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "121-best-time-to-buy-sell-stock"
+  },
+  {
+    "id": 124,
+    "title": "二叉树中的最大路径和",
+    "slug": "binary-tree-maximum-path-sum",
+    "difficulty": "hard",
+    "tags": [
+      "二叉树",
+      "DFS",
+      "动态规划"
+    ],
+    "inputMode": "tree",
+    "dir": "124-binary-tree-max-path-sum"
+  },
+  {
+    "id": 128,
+    "title": "最长连续序列",
+    "slug": "longest-consecutive-sequence",
+    "difficulty": "medium",
+    "tags": [
+      "哈希表",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "128-longest-consecutive-sequence"
+  },
+  {
+    "id": 136,
+    "title": "只出现一次的数字",
+    "slug": "single-number",
+    "difficulty": "easy",
+    "tags": [
+      "位运算",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "136-single-number"
+  },
+  {
+    "id": 139,
+    "title": "单词拆分",
+    "slug": "word-break",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "字符串",
+      "哈希表"
+    ],
+    "inputMode": "basic",
+    "dir": "139-word-break"
+  },
+  {
+    "id": 141,
+    "title": "环形链表",
+    "slug": "linked-list-cycle",
+    "difficulty": "easy",
+    "tags": [
+      "链表",
+      "双指针",
+      "哈希表"
+    ],
+    "inputMode": "basic",
+    "dir": "141-linked-list-cycle"
+  },
+  {
+    "id": 142,
+    "title": "环形链表 II",
+    "slug": "linked-list-cycle-ii",
+    "difficulty": "medium",
+    "tags": [
+      "链表",
+      "双指针",
+      "哈希表"
+    ],
+    "inputMode": "basic",
+    "dir": "142-linked-list-cycle-ii"
+  },
+  {
+    "id": 146,
+    "title": "LRU 缓存",
+    "slug": "lru-cache",
+    "difficulty": "medium",
+    "tags": [
+      "哈希表",
+      "链表",
+      "设计"
+    ],
+    "inputMode": "basic",
+    "dir": "146-lru-cache"
+  },
+  {
+    "id": 148,
+    "title": "排序链表",
+    "slug": "sort-list",
+    "difficulty": "medium",
+    "tags": [
+      "链表",
+      "排序",
+      "分治算法"
+    ],
+    "inputMode": "basic",
+    "dir": "148-sort-list"
+  },
+  {
+    "id": 152,
+    "title": "乘积最大子数组",
+    "slug": "maximum-product-subarray",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "152-maximum-product-subarray"
+  },
+  {
+    "id": 155,
+    "title": "最小栈",
+    "slug": "min-stack",
+    "difficulty": "medium",
+    "tags": [
+      "栈",
+      "设计"
+    ],
+    "inputMode": "basic",
+    "dir": "155-min-stack"
+  },
+  {
+    "id": 160,
+    "title": "相交链表",
+    "slug": "intersection-of-two-linked-lists",
+    "difficulty": "easy",
+    "tags": [
+      "链表",
+      "双指针"
+    ],
+    "inputMode": "basic",
+    "dir": "160-intersection-of-two-linked-lists"
+  },
+  {
+    "id": 169,
+    "title": "多数元素",
+    "slug": "majority-element",
+    "difficulty": "easy",
+    "tags": [
+      "数组",
+      "哈希表",
+      "排序"
+    ],
+    "inputMode": "basic",
+    "dir": "169-majority-element"
+  },
+  {
+    "id": 198,
+    "title": "打家劫舍",
+    "slug": "house-robber",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "198-house-robber"
+  },
+  {
+    "id": 200,
+    "title": "岛屿数量",
+    "slug": "number-of-islands",
+    "difficulty": "medium",
+    "tags": [
+      "BFS",
+      "DFS",
+      "矩阵"
+    ],
+    "inputMode": "matrix",
+    "dir": "200-number-of-islands"
+  },
+  {
+    "id": 206,
+    "title": "反转链表",
+    "slug": "reverse-linked-list",
+    "difficulty": "easy",
+    "tags": [
+      "链表",
+      "递归"
+    ],
+    "inputMode": "basic",
+    "dir": "206-reverse-linked-list"
+  },
+  {
+    "id": 207,
+    "title": "课程表",
+    "slug": "course-schedule",
+    "difficulty": "medium",
+    "tags": [
+      "图论",
+      "拓扑排序",
+      "BFS"
+    ],
+    "inputMode": "graph",
+    "dir": "207-course-schedule"
+  },
+  {
+    "id": 208,
+    "title": "实现 Trie (前缀树)",
+    "slug": "implement-trie-prefix-tree",
+    "difficulty": "medium",
+    "tags": [
+      "字典树",
+      "字符串",
+      "设计"
+    ],
+    "inputMode": "basic",
+    "dir": "208-implement-trie"
+  },
+  {
+    "id": 210,
+    "title": "课程表 II",
+    "slug": "course-schedule-ii",
+    "difficulty": "medium",
+    "tags": [
+      "图论",
+      "拓扑排序",
+      "BFS"
+    ],
+    "inputMode": "graph",
+    "dir": "210-course-schedule-ii"
+  },
+  {
+    "id": 211,
+    "title": "添加与搜索单词",
+    "slug": "design-add-and-search-words-data-structure",
+    "difficulty": "medium",
+    "tags": [
+      "字典树",
+      "字符串",
+      "DFS"
+    ],
+    "inputMode": "basic",
+    "dir": "211-design-add-search-words"
+  },
+  {
+    "id": 215,
+    "title": "数组中的第 K 个最大元素",
+    "slug": "kth-largest-element-in-an-array",
+    "difficulty": "medium",
+    "tags": [
+      "堆",
+      "排序",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "215-kth-largest-element"
+  },
+  {
+    "id": 226,
+    "title": "翻转二叉树",
+    "slug": "invert-binary-tree",
+    "difficulty": "easy",
+    "tags": [
+      "二叉树",
+      "DFS",
+      "BFS"
+    ],
+    "inputMode": "tree",
+    "dir": "226-invert-binary-tree"
+  },
+  {
+    "id": 234,
+    "title": "回文链表",
+    "slug": "palindrome-linked-list",
+    "difficulty": "easy",
+    "tags": [
+      "链表",
+      "双指针"
+    ],
+    "inputMode": "basic",
+    "dir": "234-palindrome-linked-list"
+  },
+  {
+    "id": 236,
+    "title": "二叉树的最近公共祖先",
+    "slug": "lowest-common-ancestor-of-a-binary-tree",
+    "difficulty": "medium",
+    "tags": [
+      "二叉树",
+      "DFS"
+    ],
+    "inputMode": "tree",
+    "dir": "236-lowest-common-ancestor"
+  },
+  {
+    "id": 238,
+    "title": "除自身以外数组的乘积",
+    "slug": "product-of-array-except-self",
+    "difficulty": "medium",
+    "tags": [
+      "数组",
+      "前缀和"
+    ],
+    "inputMode": "basic",
+    "dir": "238-product-of-array-except-self"
+  },
+  {
+    "id": 239,
+    "title": "滑动窗口最大值",
+    "slug": "sliding-window-maximum",
+    "difficulty": "hard",
+    "tags": [
+      "队列",
+      "滑动窗口",
+      "单调队列"
+    ],
+    "inputMode": "basic",
+    "dir": "239-sliding-window-maximum"
+  },
+  {
+    "id": 253,
+    "title": "会议室 II",
+    "slug": "meeting-rooms-ii",
+    "difficulty": "medium",
+    "tags": [
+      "排序",
+      "堆",
+      "贪心算法"
+    ],
+    "inputMode": "matrix",
+    "dir": "253-meeting-rooms-ii"
+  },
+  {
+    "id": 279,
+    "title": "完全平方数",
+    "slug": "perfect-squares",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "BFS"
+    ],
+    "inputMode": "basic",
+    "dir": "279-perfect-squares"
+  },
+  {
+    "id": 283,
+    "title": "移动零",
+    "slug": "move-zeroes",
+    "difficulty": "easy",
+    "tags": [
+      "数组",
+      "双指针"
+    ],
+    "inputMode": "basic",
+    "dir": "283-move-zeroes"
+  },
+  {
+    "id": 287,
+    "title": "寻找重复数",
+    "slug": "find-the-duplicate-number",
+    "difficulty": "medium",
+    "tags": [
+      "双指针",
+      "数组",
+      "二分查找"
+    ],
+    "inputMode": "basic",
+    "dir": "287-find-duplicate-number"
+  },
+  {
+    "id": 295,
+    "title": "数据流的中位数",
+    "slug": "find-median-from-data-stream",
+    "difficulty": "hard",
+    "tags": [
+      "堆",
+      "设计"
+    ],
+    "inputMode": "basic",
+    "dir": "295-find-median-from-data-stream"
+  },
+  {
+    "id": 297,
+    "title": "二叉树的序列化与反序列化",
+    "slug": "serialize-and-deserialize-binary-tree",
+    "difficulty": "hard",
+    "tags": [
+      "二叉树",
+      "DFS",
+      "BFS",
+      "字符串"
+    ],
+    "inputMode": "tree",
+    "dir": "297-serialize-deserialize-bt"
+  },
+  {
+    "id": 300,
+    "title": "最长递增子序列",
+    "slug": "longest-increasing-subsequence",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "二分查找",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "300-longest-increasing-subsequence"
+  },
+  {
+    "id": 301,
+    "title": "删除无效的括号",
+    "slug": "remove-invalid-parentheses",
+    "difficulty": "hard",
+    "tags": [
+      "BFS",
+      "回溯算法",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "301-remove-invalid-parentheses"
+  },
+  {
+    "id": 309,
+    "title": "最佳买卖股票时机含冷冻期",
+    "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "309-best-time-to-buy-sell-stock-cooldown"
+  },
+  {
+    "id": 312,
+    "title": "戳气球",
+    "slug": "burst-balloons",
+    "difficulty": "hard",
+    "tags": [
+      "动态规划",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "312-burst-balloons"
+  },
+  {
+    "id": 322,
+    "title": "零钱兑换",
+    "slug": "coin-change",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "BFS",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "322-coin-change"
+  },
+  {
+    "id": 337,
+    "title": "打家劫舍 III",
+    "slug": "house-robber-iii",
+    "difficulty": "medium",
+    "tags": [
+      "二叉树",
+      "动态规划",
+      "DFS"
+    ],
+    "inputMode": "tree",
+    "dir": "337-house-robber-iii"
+  },
+  {
+    "id": 338,
+    "title": "比特位计数",
+    "slug": "counting-bits",
+    "difficulty": "easy",
+    "tags": [
+      "位运算",
+      "动态规划"
+    ],
+    "inputMode": "basic",
+    "dir": "338-counting-bits"
+  },
+  {
+    "id": 347,
+    "title": "前 K 个高频元素",
+    "slug": "top-k-frequent-elements",
+    "difficulty": "medium",
+    "tags": [
+      "堆",
+      "哈希表",
+      "排序"
+    ],
+    "inputMode": "basic",
+    "dir": "347-top-k-frequent-elements"
+  },
+  {
+    "id": 394,
+    "title": "字符串解码",
+    "slug": "decode-string",
+    "difficulty": "medium",
+    "tags": [
+      "栈",
+      "字符串",
+      "递归"
+    ],
+    "inputMode": "basic",
+    "dir": "394-decode-string"
+  },
+  {
+    "id": 399,
+    "title": "除法求值",
+    "slug": "evaluate-division",
+    "difficulty": "medium",
+    "tags": [
+      "图论",
+      "DFS",
+      "并查集"
+    ],
+    "inputMode": "graph",
+    "dir": "399-evaluate-division"
+  },
+  {
+    "id": 406,
+    "title": "根据身高重建队列",
+    "slug": "queue-reconstruction-by-height",
+    "difficulty": "medium",
+    "tags": [
+      "贪心算法",
+      "排序",
+      "数组"
+    ],
+    "inputMode": "matrix",
+    "dir": "406-queue-reconstruction"
+  },
+  {
+    "id": 416,
+    "title": "分割等和子集",
+    "slug": "partition-equal-subset-sum",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "416-partition-equal-subset-sum"
+  },
+  {
+    "id": 437,
+    "title": "路径总和 III",
+    "slug": "path-sum-iii",
+    "difficulty": "medium",
+    "tags": [
+      "二叉树",
+      "DFS",
+      "前缀和"
+    ],
+    "inputMode": "tree",
+    "dir": "437-path-sum-iii"
+  },
+  {
+    "id": 438,
+    "title": "找到字符串中所有字母异位词",
+    "slug": "find-all-anagrams-in-a-string",
+    "difficulty": "medium",
+    "tags": [
+      "滑动窗口",
+      "哈希表",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "438-find-all-anagrams"
+  },
+  {
+    "id": 448,
+    "title": "找到所有数组中消失的数字",
+    "slug": "find-all-numbers-disappeared-in-an-array",
+    "difficulty": "easy",
+    "tags": [
+      "数组",
+      "哈希表"
+    ],
+    "inputMode": "basic",
+    "dir": "448-find-all-numbers-disappeared"
+  },
+  {
+    "id": 461,
+    "title": "汉明距离",
+    "slug": "hamming-distance",
+    "difficulty": "easy",
+    "tags": [
+      "位运算"
+    ],
+    "inputMode": "basic",
+    "dir": "461-hamming-distance"
+  },
+  {
+    "id": 494,
+    "title": "目标和",
+    "slug": "target-sum",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "DFS",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "494-target-sum"
+  },
+  {
+    "id": 538,
+    "title": "把二叉搜索树转换为累加树",
+    "slug": "convert-bst-to-greater-tree",
+    "difficulty": "medium",
+    "tags": [
+      "二叉树",
+      "DFS"
+    ],
+    "inputMode": "tree",
+    "dir": "538-convert-bst-to-greater"
+  },
+  {
+    "id": 543,
+    "title": "二叉树的直径",
+    "slug": "diameter-of-binary-tree",
+    "difficulty": "easy",
+    "tags": [
+      "二叉树",
+      "DFS"
+    ],
+    "inputMode": "tree",
+    "dir": "543-diameter-of-binary-tree"
+  },
+  {
+    "id": 560,
+    "title": "和为 K 的子数组",
+    "slug": "subarray-sum-equals-k",
+    "difficulty": "medium",
+    "tags": [
+      "前缀和",
+      "哈希表",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "560-subarray-sum-equals-k"
+  },
+  {
+    "id": 581,
+    "title": "最短无序连续子数组",
+    "slug": "shortest-unsorted-continuous-subarray",
+    "difficulty": "medium",
+    "tags": [
+      "数组",
+      "排序",
+      "双指针"
+    ],
+    "inputMode": "basic",
+    "dir": "581-shortest-unsorted-subarray"
+  },
+  {
+    "id": 617,
+    "title": "合并二叉树",
+    "slug": "merge-two-binary-trees",
+    "difficulty": "easy",
+    "tags": [
+      "二叉树",
+      "DFS",
+      "BFS"
+    ],
+    "inputMode": "tree",
+    "dir": "617-merge-two-binary-trees"
+  },
+  {
+    "id": 621,
+    "title": "任务调度器",
+    "slug": "task-scheduler",
+    "difficulty": "medium",
+    "tags": [
+      "贪心算法",
+      "堆",
+      "数组"
+    ],
+    "inputMode": "basic",
+    "dir": "621-task-scheduler"
+  },
+  {
+    "id": 647,
+    "title": "回文子串",
+    "slug": "palindromic-substrings",
+    "difficulty": "medium",
+    "tags": [
+      "动态规划",
+      "字符串"
+    ],
+    "inputMode": "basic",
+    "dir": "647-palindromic-substrings"
+  },
+  {
+    "id": 739,
+    "title": "每日温度",
+    "slug": "daily-temperatures",
+    "difficulty": "medium",
+    "tags": [
+      "栈",
+      "数组",
+      "单调栈"
+    ],
+    "inputMode": "basic",
+    "dir": "739-daily-temperatures"
+  }
 ]
