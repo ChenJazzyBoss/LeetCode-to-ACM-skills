@@ -1,0 +1,5 @@
+4
+ADD bad
+SEARCH bad
+SEARCH b.d
+SEARCH .ad
