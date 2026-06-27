@@ -4,3 +4,6 @@ CLAUDE.md
 # Python
 __pycache__/
 *.pyc
+
+# 个人训练工作区（私人草稿本，不进公开题库）
+workspace/
