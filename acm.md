@@ -63,6 +63,7 @@ workspace/
 
 1. **建当天文件夹**：`workspace/<YYYY-MM-DD>/`（不存在则创建）。
 2. **建代码文件**：`<题号>-<slug>.py`，文件头以注释形式嵌入**题面 + ACM 模板 + 提示**，用户在 `TODO` 处填逻辑。
+   - **读写提示分阶段**：用户刚开始练 ACM（前 2-3 题）时，模板里**带输入输出写法注释**（`int(input())`、`map(int, input().split())`、`print` 套路）；观察到用户能独立写出读写后，新题模板**去掉读写注释**，只留题面和 `TODO`，让用户自己写读写部分。判断"熟悉"信号：连续 2-3 题读写一次写对、没问读写问题。
 3. **建 log.md**：首次创建时写标题；后续每次评判**追加**一条记录。
 
 ### log.md 一条记录的格式（追加，不覆盖）
@@ -100,6 +101,13 @@ pool = [p for p in index if os.path.isdir(os.path.join("problems", p["dir"]))]
 ```
 
 抽题策略：`random.sample(pool, k)`，**保证一轮内不重复**；优先抽用户没做过的（依据训练记录）。
+
+**难度配比**：默认以**中等题(Medium)为主**，简单题(Easy)少抽，hard 视情况（约 medium:easy:hard = 7:2:1）。用户可显式指定难度。
+```python
+# 偏好中等题的抽题示例
+mediums = [p for p in pool if p['difficulty']=='medium']
+picks = random.sample(mediums, min(k, len(mediums)))  # 优先 medium
+```
 
 ### `/acm quiz` —— 随机测验
 
