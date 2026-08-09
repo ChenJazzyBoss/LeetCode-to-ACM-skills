@@ -6,7 +6,7 @@
 """
 
 import sys
-from datetime import date, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 
 # 北京时间 (UTC+8)
 TZ = timezone(timedelta(hours=8))
@@ -14,7 +14,7 @@ TZ = timezone(timedelta(hours=8))
 
 def today_str() -> str:
     """返回当天日期字符串 (北京时间) 如 '2026-07-14'"""
-    return date.today(TZ).isoformat()
+    return datetime.now(TZ).date().isoformat()
 
 
 def workspace_dir() -> str:
